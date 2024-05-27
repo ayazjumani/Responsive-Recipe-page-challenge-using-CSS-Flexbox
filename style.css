@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    font-family: "Outfit", "young Serif", sans-serif, serif;
+    background-color: hsl(30, 18%, 87%);
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+section{
+    margin: 20px;
+    padding: 20px;
+}
+
+.omeletteComponent {
+    display: inline-block;
+    text-align: left;
+    font-family: "Young Serif";
+}
+
+.omeletteComponent > img{
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-family: "Outfit";
+    font-size: 30px;
+    color: hsl(332, 51%, 32%);
+}
+
+.omelettePreparation {
+    display: block;
+    text-align: left;
+    margin-left: 50px;
+}
+
+h3 {
+    font-family: "Young Serif";
+    color: hsl(332, 51%, 32%);
+    font-size: 30px;
+}
+
+.omelettePreparation > ul{
+    font-family: "Outfit";
+    font-size: 30px;
+    color: hsl(332, 51%, 32%);
+}
+
+.firstLetter {
+    font-weight: bold;
+}
+
+.omeletteIngredients {
+    display: block;
+    text-align: left;
+    margin-top: 50px;
+    color: hsl(332, 51%, 32%);
+}
+
+h2{
+    font-family: "Young Serif";
+    color: hsl(14, 45%, 36%);
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.omeletteIngredients > ul{
+    font-family: "Outfit";
+    font-size: 30px;
+    color: hsl(332, 51%, 32%);
+    text-indent: 40px;
+}
+
+.omeletteInstructions {
+    display: block;
+    text-align: left;
+    margin-top: 50px;
+    color: hsl(332, 51%, 32%);
+}
+
+.omeletteInstructions > ol {
+    font-family: "Outfit";
+    font-size: 30px;
+    color: hsl(332, 51%, 32%);
+    text-indent: 40px;
+}
+
+.omeletteNutrition {
+    display: block;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 30px;
+    color: hsl(332, 51%, 32%);
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    text-indent: 40px;
+}
+
+tr, td {
+    margin: 40px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+table .calory{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .omeletteComponent img {
+        width: 100%;
+        height: auto;
+    }
+
+    .omeletteComponent h1 {
+        font-size: 1.5em;
+    }
+
+    .omelettePreparation ul, .omeletteIngredients ul, .omeletteInstructions ol {
+        padding-left: 10px;
+    }
+
+    .omelettePreparation ul li, .omeletteIngredients ul li, .omeletteInstructions ol li {
+        margin-bottom: 10px;
+    }
+
+    .omeletteNutrition table td {
+        padding: 5px;
+    }
+
+    .omeletteNutrition p {
+        font-size: 0.9em;
+    }
+}
